@@ -1,8 +1,8 @@
 {
-  "name": "unicode-bidirectional",
+  "name": "nf-unicode-bidirectional",
   "version": "2.0.5",
-  "description": "An implementation of Unicode 9.0.0 Bidirectional Algorithm",
-  "main": "dist/unicode-bidirectional.js",
+  "description": "Fork of unicode-bidirectional, but with main pointing to the actual unicode.bidirectional.js instead of nonexistent unicode-bidirectional.js",
+  "main": "dist/unicode.bidirectional.js",
   "module": "src/main.js",
   "es6": "src/main.js",
   "scripts": {
@@ -23,14 +23,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bbc/unicode-bidirectional.git"
+    "url": "git+https://github.com/noteflight/unicode-bidirectional.git"
   },
   "author": "BBC",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bbc/unicode-bidirectional/issues"
+    "url": "https://github.com/noteflight/unicode-bidirectional/issues"
   },
-  "homepage": "https://github.com/bbc/unicode-bidirectional#readme",
+  "homepage": "https://github.com/noteflight/unicode-bidirectional#readme",
   "dependencies": {
     "immutable": "^3.8.1",
     "lodash.flow": "^3.5.0",
