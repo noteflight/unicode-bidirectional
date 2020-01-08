@@ -1,6 +1,6 @@
 {
   "name": "nf-unicode-bidirectional",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Fork of unicode-bidirectional, but with main pointing to the actual unicode.bidirectional.js instead of nonexistent unicode-bidirectional.js",
   "main": "dist/unicode.bidirectional.js",
   "module": "src/main.js",
